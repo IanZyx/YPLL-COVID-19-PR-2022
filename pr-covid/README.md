@@ -1,10 +1,15 @@
+## Introducción
+
+El siguiente software permite guardar registros sobre los casos de muerte por COVID-19 en Puerto Rico, el cual nos permite mostrar las tasas de casos de covid por municipio separados por rango de fechas, categorizados entre hombres o mujeres. Para esta implementación se ha usado el entorno de desarrollo integrado de R Studio, con lenguaje R, usando librerías adecuadas como Shiny, el cual nos permite desplegar una aplicación web, y utilizar un servidor local que pueda funcionar desde R Studio. 
+
 ## Informes
 
-Pueden ver un resumen [aquí](https://github.com/rafalab/pr-covid/blob/master/pr-covid.md)
+Reporte de la Investigación: [aquí](https://docs.google.com/document/d/1q5d7PPDcDYLT32XyMfwETtbtld25Komi4JDmD3Yrz-8/edit?usp=sharing)
 
-y el codigo [aquí](https://github.com/rafalab/pr-covid/blob/master/pr-covid.Rmd)
+Este proyecto fue basado en el siguiente proyecto original:
+[aquí](https://github.com/rafalab/pr-covid/)
 
-La charla presentada al PRPHT está [aquí](https://rafalab.github.io/pr-covid/prpht.html).
+Junto a la charla presentada al PRPHT está [aquí](https://rafalab.github.io/pr-covid/prpht.html).
 
 ## Datos
 
@@ -20,8 +25,6 @@ unzip y saque el archivo TestingByDate.csv
 
 Los datos extraidos de los datos cruedos están en el directorio `rdas`
 
-
-
 ## Codigo
 
 * Para extaer los datos de Puerto Rico pueden correr el archivo wrangle-YYYY-MM-DD.R. 
@@ -30,4 +33,8 @@ Los datos extraidos de los datos cruedos están en el directorio `rdas`
 
 * `wrangle-bioportal-data-2020-07-14.R` crea un resumen diario de positivos y pruebas.
 
+## Créditos
 
+* Créditos a Rafael Irizarry, PhD, dado que esta investigación fue basada en su proyecto.
+
+* Créditos Humberto Ortiz Zuazaga, PhD, por asignar el proyecto de investigación.
